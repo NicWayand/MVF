@@ -1,4 +1,4 @@
-# MVF
+# MVF (Master Variable Format)
 Matlab scripts to import, quality control, fill and export formated forcing data for point snow model simualtions.
 
 % These scripts are used to import various formats of raw data into the Master
