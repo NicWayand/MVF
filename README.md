@@ -14,32 +14,6 @@ Matlab scripts to import, quality control, fill and export formated forcing data
  3) Fill_X_Master_Format.m              - Fill or replace missing data
  4) Export_X_MVF_2_Other_Format.m       - Format select variables for input
 
- Search for "REPLACE YOUR HOME DIR HERE" to update paths
-
- Suggested file structure:
-
- ~/home/data/
-            /raw/
-                /site1/
-                      /Forcingfile_2000/
-                      /Forcingfile_All_years/
-                /site2/
-            /QC/
-                /site1/
-                      /Forcingfile_2000/
-                      /Forcingfile_All_years/
-                /site2/
-            /Fill/
-                /site1/
-                      /Forcingfile_2000/
-                      /Forcingfile_All_years/
-                /site2/
-            /Formated/
-                /site1/
-                      /Forcingfile_2000/
-                      /Forcingfile_All_years/
-                /site2/
-
  This structure allows the user to easily keep track of the history of a
  given forcing set. In addition, an individual variable may be updated by
  it self (i.e. additional filling from a new source) without remaking all
